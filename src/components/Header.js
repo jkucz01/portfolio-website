@@ -26,7 +26,7 @@ export default function Header() {
                         <FontAwesomeIcon icon={faGithub} /> GitHub
                     </a>
                     <a
-                        href="https://github.com/yourgithub"
+                        href="https://www.linkedin.com/in/jacob-kuczynski/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-600 transition hover:text-blue-500"
