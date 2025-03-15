@@ -13,7 +13,7 @@ function App() {
     <div className="flex min-h-screen flex-col lg:flex-row">
       <BrowserRouter>
         <Header />
-        <main className="grow p-6">
+        <main className="pt-24 lg:w-[52%] lg:py-24">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
