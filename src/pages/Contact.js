@@ -1,18 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faCopy } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function Contact() {
+    const [copiedText, setCopiedText] = useState("");
 
     const copyToClipboard = (text) => {
         navigator.clipboard.writeText(text);
-        alert("Copied: {text}");
+        setCopiedText(text);
+        setTimeout(() => setCopiedText(""), 2000);
     };
+
     return (
     <div className="container mx-auto p-6">
       <section className="mb-12 text-center">
+        <h1 className="text-4xl font-bold text-gray-800 mb-4">Contact Me</h1>
         <p className="text-lg text-gray-600">
           I am currently open to Embedded Software Engineering and similar roles. 
           Please click one of the links below to contact me. 
@@ -32,7 +36,7 @@ export default function Contact() {
             <FontAwesomeIcon icon={faLinkedin} className="mr-2" /> LinkedIn Profile
         </a>
         </div>
-        <div className="flex items-center justify-center space-x-2">
+        <div className="relative flex items-center justify-center space-x-2">
           
           <button
             onClick={() => copyToClipboard("jkucz@berkeley.edu")}
@@ -41,9 +45,14 @@ export default function Contact() {
             <p className="text-gray-600">Email: jkucz@berkeley.edu  <FontAwesomeIcon icon={faCopy} />
             </p>
           </button>
+          {copiedText === "jkucz@berkeley.edu" && (
+                <div className="absolute -top-7 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white text-xs py-1 px-2 rounded">
+                    Copied!
+                </div>
+            )}
         </div>
 
-        <div className="flex items-center justify-center space-x-2">
+        <div className="relative flex items-center justify-center space-x-2">
           
           <button
             onClick={() => copyToClipboard("(603) 475-5813")}
@@ -52,6 +61,11 @@ export default function Contact() {
             <p className="text-gray-600">Mobile: (603) 475-5813 <FontAwesomeIcon icon={faCopy} />
             </p>
           </button>
+          {copiedText === "(603) 475-5813" && (
+                <div className="absolute -top-7 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white text-xs py-1 px-2 rounded">
+                    Copied!
+                </div>
+            )}
         </div>
       </section>
     </div>
