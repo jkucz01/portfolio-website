@@ -1,9 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import gradPhoto from "../assets/grad-personal-photo.jpeg"
 
 export default function Home() {
   return (
     <div className="container mx-auto p-6">
+        <section className="flex justify-center mb-8">
+            <img 
+                src={gradPhoto} 
+                alt="Photo of me" 
+                className="w-60 h-60 object-cover shadow-lg"
+            />
+        </section>
       <section className="mb-12 text-center">
         <p className="text-lg text-gray-600">
           I&#39;m an Embedded Software Engineer passionate about building sustainable, intelligent systems. I specialize in creating high-performance solutions for the IoT world.
