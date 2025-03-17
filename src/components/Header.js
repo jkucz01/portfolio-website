@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 
 export default function Header() {
     return (
-        <header className="h-auto w-full bg-white p-6 shadow-md lg:sticky lg:top-0 lg:flex lg:h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
+        <header className="h-auto w-full bg-white p-6 shadow-md lg:sticky lg:top-0 lg:flex lg:h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:px-10 lg:py-24">
             <div className="text-center lg:text-left">
                 <h1 className="text-4xl font-bold text-gray-800">Jacob Kuczynski</h1>
                 <h2 className="mt-2 text-lg text-gray-500">Embedded Software Engineer</h2>
