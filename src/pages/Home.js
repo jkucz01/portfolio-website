@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import gradPhoto from "../assets/grad-personal-photo.jpeg"
+
+import gradPhoto from "../assets/grad-personal-photo.jpeg";
 
 export default function Home() {
   return (
     <div className="container mx-auto p-6">
-        <section className="flex justify-center mb-8">
+        <section className="mb-8 flex justify-center">
             <img 
                 src={gradPhoto} 
-                alt="Photo of me" 
-                className="w-60 h-60 object-cover shadow-lg"
+                alt="Jacob Kuczynski" 
+                className="size-60 object-cover shadow-lg"
             />
         </section>
       <section className="mb-12 text-center">
