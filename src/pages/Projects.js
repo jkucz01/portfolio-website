@@ -41,6 +41,32 @@ export default function Projects() {
                     </div>
                 </Link>
             </section>
+            <section className="mb-12">
+                <div className="block flex-1 rounded-lg bg-gray-100 p-6 shadow-md transition">
+                    <h3 className="text-xl font-bold text-gray-700">
+                        About this Website
+                        <span className="block text-sm text-gray-400">
+                            March 2025
+                        </span>
+                    </h3>
+                    <div className="flex flex-col items-center md:flex-row">
+                            <p className="mt-4">
+                                This website was built using the <b>React</b> javascript framework. 
+                                Its styling uses <b>Tailwind CSS</b> for flexible viewing across many devices. 
+                                The site navigation uses React Router for 
+                                easy transitions between pages. It is deployed using <b>AWS Amplify</b> providing 
+                                continuous deployment from its
+                                <a 
+                                href="https://github.com/jkucz01/portfolio-website"
+                                className="text-blue-500 transition hover:text-blue-700"
+                                target="_blank" 
+                                rel="noopener noreferrer"> GitHub repository </a> 
+                                and uses <b>CloudFront</b> for assests and media delivery. 
+                                This was my first website designed from scratch.
+                            </p>
+                        </div>
+                    </div>
+            </section>
             <section className="text-center">
                 <p className="text-lg text-gray-600">
                         More coming soon!
