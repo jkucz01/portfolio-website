@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import ContactButton from "../components/ContactButton";
+
 export default function Projects() {
     return (
         <div className="container mx-auto p-6">
@@ -45,12 +47,7 @@ export default function Projects() {
                 </p>
             </section>
             <section className="text-center">
-                <Link
-                to="/contact"
-                className="inline-block rounded-lg bg-blue-500 px-6 py-3 text-xl text-white transition hover:bg-blue-600"
-                >
-                Contact Me
-                </Link>
+                <ContactButton />
             </section>
         </div>
     );
