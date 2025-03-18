@@ -7,7 +7,7 @@ export default function Home() {
     <div className="container mx-auto p-6">
         <section className="mb-8 flex justify-center">
             <img 
-                src="/grad-personal-photo.jpeg"
+                src="/personal_photos/grad-personal-photo.jpg"
                 alt="Jacob Kuczynski" 
                 className="size-60 object-cover shadow-lg"
             />
