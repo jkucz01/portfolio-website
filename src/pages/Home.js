@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import ContactButton from "../components/ContactButton";
+import HomePageSlideshow from "../components/HomePageSlideshow";
 
 
 export default function Home() {
@@ -64,6 +65,9 @@ export default function Home() {
 
       <section className="text-center">
         <ContactButton />
+      </section>
+      <section className="py-10 mx-auto">
+        <HomePageSlideshow />
       </section>
     </div>
   );
