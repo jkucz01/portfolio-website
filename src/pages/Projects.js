@@ -42,6 +42,38 @@ export default function Projects() {
                 </Link>
             </section>
             <section className="mb-12">
+                <Link 
+                    to="/projects/aquatic"
+                    className="block rounded-lg bg-gray-100 p-6 shadow-md transition hover:bg-gray-200"
+                >
+                <div className="flex-1">
+                    <h3 className="text-xl font-bold text-gray-700">
+                        &quot;Aquatic Housekeeper&quot;
+                        <span className="block text-lg font-normal text-gray-500">
+                            Smart Fish Feeder
+                        </span>
+                        <span className="block text-sm text-gray-400">
+                            September 2022 - December 2022
+                        </span>
+                    </h3>
+                    <div className="flex flex-col items-center md:flex-row">
+                        <img 
+                            src="/projects/aquatic-housekeeper.jpeg"
+                            alt="FlyderBot Robot" 
+                            className="h-30 mr-6 w-40 rounded-lg object-cover"
+                        />
+                            <p className="mt-4">
+                                The Aquatic Housekeeper runs on an ESP32 Feather and is programmed using 
+                                MicroPython.  It&#39;s IO include an ultrasonic sensor for water depth sensing, 
+                                a thermocouple for water temperature, and a small dc motor with encoders.  It 
+                                connects to a web interface on adafruit via the MQTT protocol 
+                                for remote monitoring and actuation.
+                            </p>
+                        </div>
+                    </div>
+                </Link>
+            </section>
+            <section className="mb-12">
                 <div className="block flex-1 rounded-lg bg-gray-100 p-6 shadow-md transition">
                     <h3 className="text-xl font-bold text-gray-700">
                         About this Website
