@@ -17,7 +17,12 @@ export default function Home() {
         </section>
       <section className="mb-12 text-center">
         <p className="text-lg text-gray-600">
-          I&#39;m an Embedded Software Engineer passionate about building sustainable, intelligent systems. I specialize in creating high-performance solutions for the IoT world.
+          I&#39;m an Embedded Software Engineer based in San Francisco, 
+          CA and a recent graduate from the University of California, Berkeley with degrees 
+          in EECS and Mechanical Engineering.  I am passionate about realizing novel ideas and 
+          enjoy working on IoT devices that are meaningful to myself and in the real world.  I am constantly 
+          working to improve myself and my workflow and also like teaching others what I know.  I&#39;d love to hear 
+          from you if you&#39;d like to discuss ideas or opportunities with me.
         </p>
       </section>
 
@@ -66,7 +71,12 @@ export default function Home() {
       <section className="text-center">
         <ContactButton />
       </section>
-      <section className="py-10 mx-auto">
+      <section className="py-10 mx-auto text-center">
+        <p className="text-lg text-gray-600 py-5">
+          Outside the engineering world, I enjoy exploring the outdoors while living an active lifestyle. 
+          I spend my time running, hiking, cycling, and skiing in the winter. I am currently training for 
+          a marathon and have a goal to hike all of the 14&#39;ers in California.  
+        </p>
         <HomePageSlideshow />
       </section>
     </div>
