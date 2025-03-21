@@ -7,7 +7,7 @@ export default function AquaticHousekeeper() {
         <div className="container mx-auto p-6">
             <h1 className="mb-4 text-3xl font-bold text-gray-700">Aquatic Housekeeper: Smart Fish Feeder</h1>
             <img 
-                src="/projects/aquatic-housekeeper.jpeg" 
+                src="/projects/aquatic-housekeeper.jpg" 
                 alt="Aquatic Housekeeper" 
                 className="mx-auto mb-6 w-full max-w-md rounded-lg"
             />

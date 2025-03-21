@@ -58,7 +58,7 @@ export default function Projects() {
                     </h3>
                     <div className="flex flex-col items-center md:flex-row">
                         <img 
-                            src="/projects/aquatic-housekeeper.jpeg"
+                            src="/projects/aquatic-housekeeper.jpg"
                             alt="FlyderBot Robot" 
                             className="h-30 mr-6 w-40 rounded-lg object-cover"
                         />

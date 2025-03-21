@@ -19,7 +19,7 @@ export default function HomePageSlideshow() {
             <SwiperSlide>
                 <div className="flex flex-col items-center">
                     <img 
-                        src="/personal_photos/queenstown-photo.jpeg" 
+                        src="/personal_photos/queenstown-photo.jpg" 
                         alt="Jacob in Queenstown NZ" 
                         className="w-full h-full max-h-[300px] object-cover" 
                     />
@@ -32,7 +32,7 @@ export default function HomePageSlideshow() {
             <SwiperSlide>
                 <div className="flex flex-col items-center">
                     <img 
-                        src="/personal_photos/shasta-photo.jpeg" 
+                        src="/personal_photos/shasta-photo.jpg" 
                         alt="Jacob ski touring Mount Shasta" 
                         className="w-full h-full max-h-[300px] object-cover" 
                     />
