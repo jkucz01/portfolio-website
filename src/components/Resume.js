@@ -6,14 +6,15 @@ export default function Resume() {
             <div className="h-80 w-60 cursor-pointer overflow-hidden border border-gray-300 shadow-lg">
                 <a 
                     href="/resume/resume.pdf" 
-                    download
+                    download="resume.pdf" 
                     rel="noopener noreferrer"
+                    target="_blank"
                 >
-                <img 
-                    src="/resume/resume.jpg" 
-                    alt="Resume Preview" 
-                    className="size-full object-cover"
-                />
+                    <img 
+                        src="/resume/resume.jpg" 
+                        alt="Resume Preview" 
+                        className="size-full object-cover"
+                    />
                 </a>
             </div>
         </div>
