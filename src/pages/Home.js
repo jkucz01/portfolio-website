@@ -16,7 +16,7 @@ export default function Home() {
                 className="size-60 object-cover shadow-lg"
             />
         </section>
-      <section className="mb-12 text-center">
+      <section className="mb-12">
         <p className="text-lg text-gray-600">
           I&#39;m an Embedded Software Engineer based in San Francisco, 
           CA and a recent graduate from the University of California, Berkeley with degrees 
@@ -69,13 +69,15 @@ export default function Home() {
         </div>
       </section>
       <section className="mb-12">
+        <h2 className="mb-4 text-xl font-semibold text-gray-800">Resume</h2>
         <Resume />
-        </section>
+      </section>
 
       <section className="text-center">
         <ContactButton />
       </section>
-      <section className="mx-auto py-10 text-center">
+      <section className="mt-10">
+        <h2 className="text-xl font-semibold text-gray-800">About Me</h2>
         <p className="py-5 text-lg text-gray-600">
           Outside the engineering world, I enjoy exploring the outdoors while living an active lifestyle. 
           I spend my time running, hiking, cycling, and skiing in the winter. I am currently training for 
