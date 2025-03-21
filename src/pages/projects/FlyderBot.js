@@ -1,6 +1,7 @@
 import React from "react";
 
 import BackButton from "../../components/BackButton";
+import FlyderbotSlideshow from "../../components/FlyderbotSlideshow";
 
 export default function FlyderBot() {
     return (
@@ -21,6 +22,9 @@ export default function FlyderBot() {
                 The FlyderBot is designed to autonomously transition from the floor to the wall 
                 and back down, showcasing advanced motion control and precise sensor integration.
             </p>
+            <section className="py-8 text-center">
+                <FlyderbotSlideshow />
+            </section>
             <section className="py-8 text-center">
                 <BackButton />
             </section>
