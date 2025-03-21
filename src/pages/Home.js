@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import ContactButton from "../components/ContactButton";
 import HomePageSlideshow from "../components/HomePageSlideshow";
+import Resume from "../components/Resume";
 
 
 export default function Home() {
@@ -67,12 +68,15 @@ export default function Home() {
           </Link>
         </div>
       </section>
+      <section className="mb-12">
+        <Resume />
+        </section>
 
       <section className="text-center">
         <ContactButton />
       </section>
-      <section className="py-10 mx-auto text-center">
-        <p className="text-lg text-gray-600 py-5">
+      <section className="mx-auto py-10 text-center">
+        <p className="py-5 text-lg text-gray-600">
           Outside the engineering world, I enjoy exploring the outdoors while living an active lifestyle. 
           I spend my time running, hiking, cycling, and skiing in the winter. I am currently training for 
           a marathon and have a goal to hike all of the 14&#39;ers in California.  
