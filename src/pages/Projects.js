@@ -74,6 +74,37 @@ export default function Projects() {
                 </Link>
             </section>
             <section className="mb-12">
+                <Link 
+                    to="/projects"
+                    className="block rounded-lg bg-gray-100 p-6 shadow-md transition hover:bg-gray-200"
+                >
+                <div className="flex-1">
+                    <h3 className="text-xl font-bold text-gray-700">
+                        &quot;Brewt Force&quot;
+                        <span className="block text-lg font-normal text-gray-500">
+                            Automated French Press
+                        </span>
+                        <span className="block text-sm text-gray-400">
+                            August 2024 - December 2024
+                        </span>
+                    </h3>
+                    <div className="flex flex-col items-center md:flex-row">
+                        <img 
+                            src="/projects/brewt-force.jpg"
+                            alt="Brewt Force Machine" 
+                            className="h-30 mr-6 w-40 rounded-lg object-cover"
+                        />
+                            <p className="mt-4">
+                                Brewt Force is a mechatronics project that features an automated french 
+                                press sequence based on a state machine and a transmission line to move the 
+                                plunger rod up and down the pot.  It is coded in arduino and uses interrupt handlers 
+                                to dynamically repond to user inputs in real time.
+                            </p>
+                        </div>
+                    </div>
+                </Link>
+            </section>
+            <section className="mb-12">
                 <div className="block flex-1 rounded-lg bg-gray-100 p-6 shadow-md transition">
                     <h3 className="text-xl font-bold text-gray-700">
                         About this Website
