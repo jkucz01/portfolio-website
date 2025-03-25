@@ -24,10 +24,15 @@ export default function Projects() {
                             className="h-30 mr-6 w-40 rounded-lg object-cover"
                         />
                             <p className="mt-4">
-                                I&#39;m currently learning how to use FreeRTOS. I&#39;m deploying 
+                                I&#39;m currently learning how to use <b>FreeRTOS</b>. I&#39;m deploying 
                                 the operating system on a Raspberry Pi Pico microcontroller while optimizing 
-                                build workflow. Eventually, I would like to setup a Real-Time Location System (RTLS) 
-                                between 2 RP2040 devices using Ultra-Wideband sensors with tasks running on FreeRTOS. 
+                                build workflow. Eventually, I would like to setup a <b>Real-Time Location System (RTLS) </b> 
+                                between two <b>RP2040</b> devices using <b>Ultra-Wideband (UWB)</b> sensors with tasks running on FreeRTOS. 
+                                <a 
+                                href="https://github.com/jkucz01/pico2w-freertos"
+                                className="text-blue-500 transition hover:text-blue-700"
+                                target="_blank" 
+                                rel="noopener noreferrer"> Link to GitHub repo.</a>
                             </p>
                         </div>
                     </div>
@@ -54,9 +59,9 @@ export default function Projects() {
                             className="h-30 mr-6 w-40 rounded-lg object-cover"
                         />
                             <p className="mt-4">
-                                Running on a Raspberry Pi Pico, the FlyderBot features 2 drone propellers 
-                                each on a servo actuated rotating axis. The robot uses an ultrasonic sensor 
-                                to measure its distance to the wall, encoders for speed control, and an IMU for 
+                                Running on a <b>Raspberry Pi Pico</b>, the FlyderBot features 2 drone propellers 
+                                each on a servo actuated rotating axis. The robot uses an <b>ultrasonic sensor </b>
+                                to measure its distance to the wall, encoders for <b>PI feedback</b> speed control, and an <b>IMU</b> for 
                                 tilt sensing. This high-stakes project autonomously transitions from the 
                                 floor to the wall and back down.
                             </p>
@@ -86,10 +91,10 @@ export default function Projects() {
                             className="h-30 mr-6 w-40 rounded-lg object-cover"
                         />
                             <p className="mt-4">
-                                The Aquatic Housekeeper runs on an ESP32 Feather and is programmed using 
-                                MicroPython.  It&#39;s IO include an ultrasonic sensor for water depth sensing, 
+                                The Aquatic Housekeeper runs on an <b>ESP32</b> Feather and is programmed using 
+                                <b> MicroPython</b>.  It&#39;s IO include an ultrasonic sensor for water depth sensing, 
                                 a thermocouple for water temperature, and a small dc motor with encoders.  It 
-                                connects to a web interface on adafruit via the MQTT protocol 
+                                connects to a web interface on adafruit via the <b>MQTT</b> protocol 
                                 for remote monitoring and actuation.
                             </p>
                         </div>
@@ -119,8 +124,8 @@ export default function Projects() {
                         />
                             <p className="mt-4">
                                 Brewt Force is a mechatronics project that features an automated french 
-                                press sequence based on a state machine and a transmission line to move the 
-                                plunger rod up and down the pot.  It is coded in arduino and uses interrupt handlers 
+                                press sequence based on a <b>State Machine</b> and a transmission line to move the 
+                                plunger rod up and down the pot.  It is coded in <b>Arduino</b> and uses <b>Interrupt Service Routines (ISR) </b>
                                 to dynamically repond to user inputs in real time.
                             </p>
                         </div>
