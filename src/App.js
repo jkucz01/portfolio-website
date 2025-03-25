@@ -10,6 +10,7 @@ import Education from "./pages/Education";
 import Contact from "./pages/Contact";
 import FlyderBot from "./pages/projects/FlyderBot";
 import AquaticHousekeeper from "./pages/projects/AquaticHousekeeper";
+import RoboticArm from "./pages/projects/RoboticArm";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/projects/flyderbot" element={<FlyderBot />} />
             <Route path="/projects/aquatic" element={<AquaticHousekeeper />} />
+            <Route path="/projects/robotic-arm" element={<RoboticArm />} />
           </Routes>
         </main>
       </BrowserRouter>
