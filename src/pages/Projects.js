@@ -10,6 +10,29 @@ export default function Projects() {
                 <h1 className="mb-4 text-4xl font-bold text-gray-800">My Projects</h1>
             </section>
             <section className="mb-12">
+                <div className="block flex-1 rounded-lg bg-gray-100 p-6 shadow-md transition">
+                    <h3 className="text-xl font-bold text-gray-700">
+                        What I&#39;m working on now
+                        <span className="block text-sm text-gray-400">
+                            March 2025 - Present
+                        </span>
+                    </h3>
+                    <div className="flex flex-col items-center md:flex-row">
+                        <img 
+                            src="/projects/Logo_freeRTOS.png"
+                            alt="FreeRTOS Logo" 
+                            className="h-30 mr-6 w-40 rounded-lg object-cover"
+                        />
+                            <p className="mt-4">
+                                I&#39;m currently learning how to use FreeRTOS. I&#39;m deploying 
+                                the operating system on a Raspberry Pi Pico microcontroller while optimizing 
+                                build workflow. Eventually, I would like to setup a Real-Time Location System (RTLS) 
+                                between 2 RP2040 devices using Ultra-Wideband sensors with tasks running on FreeRTOS. 
+                            </p>
+                        </div>
+                    </div>
+            </section>
+            <section className="mb-12">
                 <Link 
                     to="/projects/flyderbot"
                     className="block rounded-lg bg-gray-100 p-6 shadow-md transition hover:bg-gray-200"
@@ -109,7 +132,7 @@ export default function Projects() {
                     <h3 className="text-xl font-bold text-gray-700">
                         About this Website
                         <span className="block text-sm text-gray-400">
-                            March 2025
+                            March 2025 - Present
                         </span>
                     </h3>
                     <div className="flex flex-col items-center md:flex-row">
