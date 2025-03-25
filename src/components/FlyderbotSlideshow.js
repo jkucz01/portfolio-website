@@ -14,7 +14,7 @@ export default function FlyderbotSlideshow() {
             slidesPerView={1}
             navigation
             pagination={{ clickable: true }}
-            className="rounded-lg shadow-lg max-w-[400px]">
+            className="max-w-[400px] rounded-lg shadow-lg">
             
             <SwiperSlide>
                 <div className="flex flex-col items-center">
@@ -23,12 +23,12 @@ export default function FlyderbotSlideshow() {
                         autoPlay 
                         loop 
                         muted 
-                        className="w-full h-full object-cover max-h-[500px]"
+                        className="size-full max-h-[500px] object-cover"
                     >
                         <source src="/projects/flyderbot-full-video.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
-                    <p className="bg-white text-black text-center w-full pt-2 pb-6 px-2">
+                    <p className="w-full bg-white px-2 pb-6 pt-2 text-center text-black">
                         This is a video of our final demo for this project. First the robot drives to 
                         the wall, transitions onto the wall, and drives up. When the robot encounters 
                         an obstacle, it the drives down, and transitions back onto the ground. 
@@ -41,9 +41,9 @@ export default function FlyderbotSlideshow() {
                     <img 
                         src="/projects/flyderbot-team.jpg" 
                         alt="The FlyderBot Project Team" 
-                        className="w-full h-full max-h-[500px] object-cover" 
+                        className="size-full max-h-[500px] object-cover" 
                     />
-                    <p className="bg-white text-black text-center w-full pt-2 pb-6 px-2">
+                    <p className="w-full bg-white px-2 pb-6 pt-2 text-center text-black">
                         A photo of the project team members. 
                         Left: Izabel Wu, Center: Henry Nguyen, Right: Jacob Kuczynski (myself).
                     </p>
