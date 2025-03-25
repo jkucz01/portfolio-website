@@ -103,6 +103,39 @@ export default function Projects() {
             </section>
             <section className="mb-12">
                 <Link 
+                    to="/projects/robotic-arm"
+                    className="block rounded-lg bg-gray-100 p-6 shadow-md transition hover:bg-gray-200"
+                >
+                <div className="flex-1">
+                    <h3 className="text-xl font-bold text-gray-700">
+                        Robotic Arm
+                        <span className="block text-lg font-normal text-gray-500">
+                            3 axis Immitation Robot With Gripper Claw
+                        </span>
+                        <span className="block pb-2 text-sm text-gray-400">
+                            January 2022 - May 2022
+                        </span>
+                    </h3>
+                    <div className="flex flex-col items-center md:flex-row">
+                        <img 
+                            src="/projects/Robotic-Arm.jpg"
+                            alt="Robotic Arm with Claw" 
+                            className="h-30 mr-6 w-40 rounded-lg object-cover"
+                        />
+                            <p className="mt-4">
+                                This project for Microprocessor Based Mechanical Systems runs on a <b>PSOC 6</b> and 
+                                features 4 servos: 3 for robotic arm movement and 1 for the gripper claw each controlled by 
+                                <b> PWM</b> signals. 
+                                It receives inputs from IMUs via <b>I2C</b> and a Flex Sensor in order to mimic the arm 
+                                position of the operator. It also features a <b>Graphical User Interface (GUI) </b>
+                                implemented on LabView used for calibration and data monitoring.
+                            </p>
+                        </div>
+                    </div>
+                </Link>
+            </section>
+            <section className="mb-12">
+                <Link 
                     to="/projects"
                     className="block rounded-lg bg-gray-100 p-6 shadow-md transition hover:bg-gray-200"
                 >
@@ -112,7 +145,7 @@ export default function Projects() {
                         <span className="block text-lg font-normal text-gray-500">
                             Automated French Press
                         </span>
-                        <span className="block text-sm text-gray-400">
+                        <span className="block pb-2 text-sm text-gray-400">
                             August 2024 - December 2024
                         </span>
                     </h3>
