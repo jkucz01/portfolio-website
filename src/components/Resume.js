@@ -6,7 +6,6 @@ export default function Resume() {
             <div className="h-80 w-60 cursor-pointer overflow-hidden border border-gray-300 shadow-lg">
                 <a 
                     href="/resume/resume.pdf" 
-                    download="resume.pdf" 
                     rel="noopener noreferrer"
                     target="_blank"
                 >
