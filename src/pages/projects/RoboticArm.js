@@ -1,6 +1,7 @@
 import React from "react";
 
 import BackButton from "../../components/BackButton";
+import RoboticArmSlideshow from "../../components/RoboticArmSlideshow";
 
 export default function RoboticArm() {
     return (
@@ -30,6 +31,9 @@ export default function RoboticArm() {
                     </a>
                 </div>
             </div>
+            <section className="py-8 text-center">
+                <RoboticArmSlideshow />
+            </section>
             <section className="py-8 text-center">
                 <BackButton />
             </section>
