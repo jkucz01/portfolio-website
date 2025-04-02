@@ -37,7 +37,7 @@ export default function FlyderBot() {
                     >
                         <img 
                             src="/projects/FlyderBot-poster.jpg" 
-                            alt="Resume Preview" 
+                            alt="Poster preview" 
                             className="size-full object-cover"
                         />
                     </a>

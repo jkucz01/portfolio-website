@@ -31,6 +31,22 @@ export default function RoboticArm() {
                     </a>
                 </div>
             </div>
+            <h2 className="text-xl font-bold text-gray-700">Project Poster PDF:</h2>
+            <div className="flex flex-col items-center py-10">
+                <div className="h-80 w-60 cursor-pointer overflow-hidden border border-gray-300 shadow-lg">
+                    <a 
+                        href="/projects/robotic-arm-poster.pdf" 
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        <img 
+                            src="/projects/robotic-arm-poster-preview.jpg" 
+                            alt="Poster preview" 
+                            className="size-full object-cover"
+                        />
+                    </a>
+                </div>
+            </div>
             <section className="py-8 text-center">
                 <RoboticArmSlideshow />
             </section>

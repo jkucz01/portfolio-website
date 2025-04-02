@@ -19,7 +19,6 @@ export default function RoboticArmSlideshow() {
                 <div className="flex flex-col items-center">
                     <video 
                         controls 
-                        autoPlay 
                         loop 
                         muted 
                         className="size-full max-h-[500px] object-cover"
@@ -40,6 +39,7 @@ export default function RoboticArmSlideshow() {
                 <div className="flex flex-col items-center">
                     <video 
                         controls 
+                        autoPlay
                         loop 
                         muted 
                         className="size-full max-h-[500px] object-cover"
