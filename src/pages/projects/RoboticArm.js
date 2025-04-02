@@ -14,6 +14,22 @@ export default function RoboticArm() {
                 position of the operator. It also features a <b>Graphical User Interface (GUI) </b>
                 implemented on LabView used for calibration and data monitoring.
             </p>
+            <h2 className="text-xl font-bold text-gray-700">View source code:</h2>
+            <div className="flex flex-col items-center py-5">
+                <div className="h-18 w-80 cursor-pointer overflow-hidden border border-gray-300 shadow-lg">
+                    <a 
+                        href="/projects/robotic-arm-main.c" 
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        <img 
+                            src="/projects/robotic-arm-code-preview.png" 
+                            alt="Code preview" 
+                            className="size-full object-cover"
+                        />
+                    </a>
+                </div>
+            </div>
             <section className="py-8 text-center">
                 <BackButton />
             </section>
